@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 ÍõÖ¾ÎÄ, 1, LIC=RC93N-YFHDX-UHQ8H-WZUBR-NP01Q-AZZ0H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\keilv5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+E:\VSCODE\V1\MDK-ARM\STM32H750.uvprojx
+Project File Date:  03/19/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keilv5\ARM\ARMCC\Bin'
+Build target 'STM32H750'
+compiling iis3dwb.c...
+..\Core\Src\iis3dwb.c(108): warning:  #177-D: variable "fifo_status"  was declared but never referenced
+    iis3dwb_fifo_status_t fifo_status;
+..\Core\Src\iis3dwb.c(36): warning:  #177-D: variable "data_raw_temperature"  was declared but never referenced
+  static int16_t data_raw_temperature;
+..\Core\Src\iis3dwb.c(37): warning:  #177-D: variable "acceleration_mg"  was declared but never referenced
+  static float_t acceleration_mg[3];
+..\Core\Src\iis3dwb.c(38): warning:  #177-D: variable "temperature_degC"  was declared but never referenced
+  static float_t temperature_degC;
+..\Core\Src\iis3dwb.c(40): warning:  #177-D: variable "tx_buffer"  was declared but never referenced
+  static uint8_t tx_buffer[1000];
+..\Core\Src\iis3dwb.c(42): warning:  #177-D: variable "datax"  was declared but never referenced
+  static int16_t *datax;
+..\Core\Src\iis3dwb.c(43): warning:  #177-D: variable "datay"  was declared but never referenced
+  static int16_t *datay;
+..\Core\Src\iis3dwb.c(44): warning:  #177-D: variable "dataz"  was declared but never referenced
+  static int16_t *dataz;
+..\Core\Src\iis3dwb.c(45): warning:  #177-D: variable "ts"  was declared but never referenced
+  static int32_t *ts;
+..\Core\Src\iis3dwb.c(46): warning:  #177-D: variable "x_data_sum_h"  was declared but never referenced
+  static int16_t x_data_sum_h;
+..\Core\Src\iis3dwb.c(47): warning:  #177-D: variable "y_data_sum_h"  was declared but never referenced
+  static int16_t y_data_sum_h;
+..\Core\Src\iis3dwb.c(48): warning:  #177-D: variable "z_data_sum_h"  was declared but never referenced
+  static int16_t z_data_sum_h;
+..\Core\Src\iis3dwb.c(49): warning:  #177-D: variable "x_data_sum_l"  was declared but never referenced
+  static int16_t x_data_sum_l;
+..\Core\Src\iis3dwb.c(50): warning:  #177-D: variable "y_data_sum_l"  was declared but never referenced
+  static int16_t y_data_sum_l;
+..\Core\Src\iis3dwb.c(51): warning:  #177-D: variable "z_data_sum_l"  was declared but never referenced
+  static int16_t z_data_sum_l;
+..\Core\Src\iis3dwb.c(401): warning:  #177-D: function "platform_init"  was declared but never referenced
+  static void platform_init(void)
+..\Core\Src\iis3dwb.c: 16 warnings, 0 errors
+compiling main.c...
+linking...
+Program Size: Code=32280 RO-data=760 RW-data=17308 ZI-data=2468  
+FromELF: creating hex file...
+"STM32H750\STM32H750.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.14.2.pack
+                ARM.CMSIS-DSP.1.14.2
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.14.2
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.3.1.0.pack
+                Keil.STM32H7xx_DFP.3.1.0
+                STMicroelectronics STM32H7 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32H750
+  D:\keilv5\ARM\PACK\ARM\CMSIS-DSP\1.14.2\Include
+  D:\keilv5\ARM\PACK\ARM\CMSIS-DSP\1.14.2\PrivateInclude
+  D:\keilv5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\keilv5\ARM\PACK\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:DSP:Source:1.14.2
+      Source file:   Source\StatisticsFunctions\StatisticsFunctionsF16.c
+      Source file:   Source\MatrixFunctions\MatrixFunctionsF16.c
+      Source file:   Source\DistanceFunctions\DistanceFunctionsF16.c
+      Source file:   Source\SVMFunctions\SVMFunctionsF16.c
+      Source file:   Source\InterpolationFunctions\InterpolationFunctionsF16.c
+      Source file:   Source\FastMathFunctions\FastMathFunctionsF16.c
+      Source file:   Source\SupportFunctions\SupportFunctionsF16.c
+      Source file:   Source\BayesFunctions\BayesFunctionsF16.c
+      Source file:   Source\FilteringFunctions\FilteringFunctions.c
+      Source file:   Source\MatrixFunctions\MatrixFunctions.c
+      Source file:   Source\ComplexMathFunctions\ComplexMathFunctions.c
+      Source file:   Source\ControllerFunctions\ControllerFunctions.c
+      Source file:   Source\StatisticsFunctions\StatisticsFunctions.c
+      Source file:   Source\SupportFunctions\SupportFunctions.c
+      Include file:  Include\arm_common_tables.h
+      Include file:  Include\arm_math.h
+      Include file:  Include\arm_const_structs.h
+      Include file:  Include\arm_math_f16.h
+      Source file:   Source\QuaternionMathFunctions\QuaternionMathFunctions.c
+      Source file:   Source\DistanceFunctions\DistanceFunctions.c
+      Source file:   Source\FastMathFunctions\FastMathFunctions.c
+      Source file:   Source\BayesFunctions\BayesFunctions.c
+      Source file:   Source\BasicMathFunctions\BasicMathFunctions.c
+      Source file:   Source\CommonTables\CommonTables.c
+      Include file:  Include\arm_common_tables_f16.h
+      Include file:  Include\arm_const_structs_f16.h
+      Source file:   Source\InterpolationFunctions\InterpolationFunctions.c
+      Source file:   Source\BasicMathFunctions\BasicMathFunctionsF16.c
+      Source file:   Source\SVMFunctions\SVMFunctions.c
+      Source file:   Source\FilteringFunctions\FilteringFunctionsF16.c
+      Source file:   Source\CommonTables\CommonTablesF16.c
+      Source file:   Source\TransformFunctions\TransformFunctionsF16.c
+      Source file:   Source\ComplexMathFunctions\ComplexMathFunctionsF16.c
+      Source file:   Source\TransformFunctions\TransformFunctions.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:25
+</pre>
+</body>
+</html>

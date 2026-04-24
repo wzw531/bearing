@@ -1,0 +1,158 @@
+T091C 000:172.128   SEGGER J-Link V7.98f Log File
+T091C 000:172.263   DLL Compiled: Aug 29 2024 10:13:19
+T091C 000:172.279   Logging started @ 2024-09-09 00:34
+T091C 000:172.295   Process: D:\Keil_v5\UV4\UV4.exe
+T091C 000:172.312 - 172.310ms
+T091C 000:172.332 JLINK_SetWarnOutHandler(...)
+T091C 000:172.348 - 0.017ms
+T091C 000:172.366 JLINK_OpenEx(...)
+T091C 000:175.399   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T091C 000:176.642   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T091C 000:176.824   Decompressing FW timestamp took 121 us
+T091C 000:185.074   Hardware: V9.40
+T091C 000:185.119   S/N: 69405986
+T091C 000:185.143   OEM: SEGGER
+T091C 000:185.166   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T091C 000:185.966   Bootloader: (Could not read)
+T091C 000:187.206   TELNET listener socket opened on port 19021
+T091C 000:187.356   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T091C 000:187.516   WEBSRV Webserver running on local port 19080
+T091C 000:187.756   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T091C 000:187.945   Looking for J-Link GUI Server exe at: D:\软件\JLink_V798f\JLinkGUIServer.exe
+T091C 000:187.997   Forking J-Link GUI Server: D:\软件\JLink_V798f\JLinkGUIServer.exe
+T091C 000:221.475   J-Link GUI Server info: "J-Link GUI server V7.98f "
+T091C 000:225.943 - 53.573ms returns "O.K."
+T091C 000:225.978 JLINK_GetEmuCaps()
+T091C 000:225.997 - 0.016ms returns 0xB9FF7BBF
+T091C 000:226.016 JLINK_TIF_GetAvailable(...)
+T091C 000:226.196 - 0.180ms
+T091C 000:226.222 JLINK_SetErrorOutHandler(...)
+T091C 000:226.238 - 0.016ms
+T091C 000:226.311 JLINK_ExecCommand("ProjectFile = "D:\项目\智能轴承\程序\STM32H750程序更新中\MDK-ARM\JLinkSettings.ini"", ...). 
+T091C 000:237.553   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T091C 000:237.666   REF file references invalid XML file: D:\软件\JLink_V798f\JLinkDevices.xml
+T091C 000:238.639 - 12.329ms returns 0x00
+T091C 000:238.671 JLINK_ExecCommand("Device = STM32H750IBKx", ...). 
+T091C 000:239.083   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T091C 000:239.118     FlashDevice.SectorInfo[0]: .SectorSize = 0x00020000, .SectorStartAddr = 0x00000000
+T091C 000:239.146   FlashBank @0x08000000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T091C 000:239.267   Flash bank @ 0x90000000: SFL: Parsing sectorization info from ELF file
+T091C 000:239.298     FlashDevice.SectorInfo[0]: .SectorSize = 0x00010000, .SectorStartAddr = 0x00000000
+T091C 000:248.736   Device "STM32H750IB" selected.
+T091C 000:249.192 - 10.501ms returns 0x00
+T091C 000:249.218 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T091C 000:249.238   ERROR: Unknown command
+T091C 000:249.262 - 0.025ms returns 0x01
+T091C 000:249.279 JLINK_GetHardwareVersion()
+T091C 000:249.298 - 0.015ms returns 94000
+T091C 000:249.315 JLINK_GetDLLVersion()
+T091C 000:249.331 - 0.015ms returns 79806
+T091C 000:249.348 JLINK_GetOEMString(...)
+T091C 000:249.365 JLINK_GetFirmwareString(...)
+T091C 000:249.381 - 0.015ms
+T091C 000:249.401 JLINK_GetDLLVersion()
+T091C 000:249.416 - 0.015ms returns 79806
+T091C 000:249.433 JLINK_GetCompileDateTime()
+T091C 000:249.449 - 0.015ms
+T091C 000:249.467 JLINK_GetFirmwareString(...)
+T091C 000:249.483 - 0.016ms
+T091C 000:249.501 JLINK_GetHardwareVersion()
+T091C 000:249.516 - 0.015ms returns 94000
+T091C 000:249.534 JLINK_GetSN()
+T091C 000:249.550 - 0.015ms returns 69405986
+T091C 000:249.567 JLINK_GetOEMString(...)
+T091C 000:249.587 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T091C 000:250.587 - 0.999ms returns 0x00
+T091C 000:250.616 JLINK_HasError()
+T091C 000:250.643 JLINK_SetSpeed(5000)
+T091C 000:250.797 - 0.155ms
+T091C 000:251.127 JLINK_HasError()
+T091C 000:251.153 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T091C 000:251.170 - 0.016ms returns JLINKARM_RESET_TYPE_NORMAL
+T091C 000:251.191 JLINK_Reset()
+T091C 000:251.475   ConfigTargetSettings() start
+T091C 000:251.504    J-Link Script File: Executing ConfigTargetSettings()
+T091C 000:251.571   ConfigTargetSettings() end - Took 64us
+T091C 000:251.599   InitTarget() start
+T091C 000:251.623    J-Link Script File: Executing InitTarget()
+T091C 000:251.868   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 000:337.632   Error: Failed to initialized DAP.
+T091C 000:337.679   Can not attach to CPU. Trying connect under reset.
+T091C 000:388.069   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 000:473.598   Error: Failed to initialized DAP.
+T091C 000:473.644   Connecting to CPU via connect under reset failed.
+T091C 000:524.613   InitTarget() end - Took 272ms
+T091C 000:524.725   Connect failed. Resetting via Reset pin and trying again.
+T091C 000:585.747   ConfigTargetSettings() start
+T091C 000:585.797    J-Link Script File: Executing ConfigTargetSettings()
+T091C 000:585.824   ConfigTargetSettings() end - Took 25us
+T091C 000:585.851   InitTarget() start
+T091C 000:585.875    J-Link Script File: Executing InitTarget()
+T091C 000:586.094   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 000:673.229   Error: Failed to initialized DAP.
+T091C 000:673.350   Can not attach to CPU. Trying connect under reset.
+T091C 000:723.964   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 000:810.992   Error: Failed to initialized DAP.
+T091C 000:811.038   Connecting to CPU via connect under reset failed.
+T091C 000:861.568   InitTarget() end - Took 275ms
+T091C 000:861.617 - 610.425ms
+T091C 000:861.642 JLINK_GetId()
+T091C 000:861.889   ConfigTargetSettings() start
+T091C 000:861.921    J-Link Script File: Executing ConfigTargetSettings()
+T091C 000:861.945   ConfigTargetSettings() end - Took 23us
+T091C 000:861.970   InitTarget() start
+T091C 000:861.993    J-Link Script File: Executing InitTarget()
+T091C 000:862.247   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 000:947.843   Error: Failed to initialized DAP.
+T091C 000:947.888   Can not attach to CPU. Trying connect under reset.
+T091C 000:998.742   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:085.031   Error: Failed to initialized DAP.
+T091C 001:085.079   Connecting to CPU via connect under reset failed.
+T091C 001:135.990   InitTarget() end - Took 273ms
+T091C 001:136.040   Connect failed. Resetting via Reset pin and trying again.
+T091C 001:197.500   ConfigTargetSettings() start
+T091C 001:197.549    J-Link Script File: Executing ConfigTargetSettings()
+T091C 001:197.575   ConfigTargetSettings() end - Took 25us
+T091C 001:197.600   InitTarget() start
+T091C 001:197.622    J-Link Script File: Executing InitTarget()
+T091C 001:198.512   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:285.939   Error: Failed to initialized DAP.
+T091C 001:285.988   Can not attach to CPU. Trying connect under reset.
+T091C 001:336.878   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:423.291   Error: Failed to initialized DAP.
+T091C 001:423.339   Connecting to CPU via connect under reset failed.
+T091C 001:474.868   InitTarget() end - Took 277ms
+T091C 001:474.916 - 613.273ms returns 0x00000000
+T091C 001:474.941 JLINK_GetId()
+T091C 001:475.207   ConfigTargetSettings() start
+T091C 001:475.239    J-Link Script File: Executing ConfigTargetSettings()
+T091C 001:475.263   ConfigTargetSettings() end - Took 23us
+T091C 001:475.287   InitTarget() start
+T091C 001:475.310    J-Link Script File: Executing InitTarget()
+T091C 001:475.561   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:561.051   Error: Failed to initialized DAP.
+T091C 001:561.089   Can not attach to CPU. Trying connect under reset.
+T091C 001:612.499   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:698.932   Error: Failed to initialized DAP.
+T091C 001:698.980   Connecting to CPU via connect under reset failed.
+T091C 001:750.648   InitTarget() end - Took 275ms
+T091C 001:750.740   Connect failed. Resetting via Reset pin and trying again.
+T091C 001:811.772   ConfigTargetSettings() start
+T091C 001:811.819    J-Link Script File: Executing ConfigTargetSettings()
+T091C 001:811.848   ConfigTargetSettings() end - Took 27us
+T091C 001:811.876   InitTarget() start
+T091C 001:811.898    J-Link Script File: Executing InitTarget()
+T091C 001:812.150   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 001:897.674   Error: Failed to initialized DAP.
+T091C 001:897.720   Can not attach to CPU. Trying connect under reset.
+T091C 001:948.254   SWD selected. Executing JTAG -> SWD switching sequence.
+T091C 002:033.676   Error: Failed to initialized DAP.
+T091C 002:033.709   Connecting to CPU via connect under reset failed.
+T091C 002:084.591   InitTarget() end - Took 272ms
+T091C 002:084.625 - 609.683ms returns 0x00000000
+T091C 002:092.985 JLINK_GetFirmwareString(...)
+T091C 002:093.014 - 0.029ms
+T091C 003:139.782 JLINK_Close()
+T091C 003:154.861 - 15.078ms
+T091C 003:154.889   
+T091C 003:154.904   Closed
